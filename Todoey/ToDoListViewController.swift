@@ -42,7 +42,6 @@ class ToDoListViewController: UITableViewController {
         
         let cell = tableView.cellForRow(at: indexPath)
         
-       
         if cell?.accessoryType == .checkmark {
             cell?.accessoryType = .none
         }
